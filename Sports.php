@@ -140,6 +140,17 @@
     </style>
 </head>
 <body>
+<?php
+    $text = "I love PHP";
+    $name = "Ian";
+    $text_length = strlen($text);
+    $php_position = strpos($text, "PHP");
+
+
+    echo "<p>My name is $name, I have to say that $text.</p>";
+    echo "<p>Total characters in $text: $text_length</p>";
+    echo "<p>The position of 'PHP' in the text: $php_position</p>";
+?>
     <div class="container">
         <h1>Sport Club Feedback Form</h1>
         <p>Please fill out this form to let us know what you think of the club so that we can improve it.</p>
